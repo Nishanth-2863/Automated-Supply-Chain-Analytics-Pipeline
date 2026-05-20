@@ -83,13 +83,13 @@ The workflow sends automated notifications for both successful and failed execut
 ## Success Email Sample
 
 ```md
-![Success Notification](images/success_email.png)
+![Success Notification](Sample Images/sample mail recieved.png)
 ```
 
 ## Failure Email Sample
 
 ```md
-![Failure Notification](images/failure_email.png)
+![Failure Notification](Sample Images/invalid mail pipeline.png)
 ```
 
 ---
