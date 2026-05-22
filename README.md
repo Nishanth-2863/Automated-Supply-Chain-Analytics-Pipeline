@@ -71,7 +71,7 @@ The workflow performs the following validations and processes:
 ## n8n Workflow Screenshot
 
 ```md
-![n8n Workflow](images/n8n_workflow.png)
+![n8n Workflow](sample_image/N8N_design.png)
 ```
 
 ---
@@ -83,13 +83,13 @@ The workflow sends automated notifications for both successful and failed execut
 ## Success Email Sample
 
 ```md
-![Success Notification](Sample Images/sample mail recieved.png)
+![Success Notification](sample_images/sample_mail_recieved.png)
 ```
 
 ## Failure Email Sample
 
 ```md
-![Failure Notification](Sample Images/invalid mail pipeline.png)
+![Failure Notification](sample_images/invalid_mail_pipeline.png)
 ```
 
 ---
