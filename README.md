@@ -68,7 +68,7 @@ The workflow performs the following validations and processes:
 
 ## n8n Workflow Screenshot
 
-![n8n Workflow](sample_image/N8N_design.png)
+![n8n Workflow](sample_images/N8N_design.png)
 
 ---
 
