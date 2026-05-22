@@ -38,9 +38,7 @@ The objective of this project was to automate the end-to-end data pipeline for:
 
 # Workflow Architecture
 
-```text
 Gmail → n8n → Supabase PostgreSQL → Pandas → Streamlit Dashboard
-```
 
 ---
 
@@ -61,18 +59,16 @@ Gmail → n8n → Supabase PostgreSQL → Pandas → Streamlit Dashboard
 
 The workflow performs the following validations and processes:
 
-1. Trigger workflow from Gmail
-2. Check whether attachments are available
-3. Validate whether uploaded files are CSV files
-4. Extract CSV data
-5. Load data into Supabase PostgreSQL
-6. Send success/failure notification emails
+1. Trigger workflow from Gmail  
+2. Check whether attachments are available  
+3. Validate whether uploaded files are CSV files  
+4. Extract CSV data  
+5. Load data into Supabase PostgreSQL  
+6. Send success/failure notification emails  
 
 ## n8n Workflow Screenshot
 
-```md
 ![n8n Workflow](sample_image/N8N_design.png)
-```
 
 ---
 
@@ -82,15 +78,11 @@ The workflow sends automated notifications for both successful and failed execut
 
 ## Success Email Sample
 
-```md
 ![Success Notification](sample_images/sample_mail_recieved.png)
-```
 
 ## Failure Email Sample
 
-```md
 ![Failure Notification](sample_images/invalid_mail_pipeline.png)
-```
 
 ---
 
@@ -114,9 +106,7 @@ Date columns were cleaned and transformed using Pandas before analysis.
 
 Duplicate transaction rows were identified and removed during the Pandas transformation process using:
 
-```text
-(order_id, product_id)
-```
+`(order_id, product_id)`
 
 as the business key combination.
 
@@ -136,9 +126,7 @@ to analyze supply chain fulfillment performance.
 
 ## Streamlit Dashboard Screenshot
 
-```md
 ![Streamlit Dashboard](images/dashboard.png)
-```
 
 ---
 
