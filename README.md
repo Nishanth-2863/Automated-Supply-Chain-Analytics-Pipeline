@@ -76,9 +76,9 @@ The workflow performs the following validations and processes:
 
 The workflow sends automated notifications for both successful and failed executions.
 
-## Success Email Sample
+## Sample Email Recieved contain csv files
 
-![Success Notification](sample_images/sample_mail_recieved.png)
+![Sample File  data recieved ](sample_images/sample_mail_recieved.png)
 
 ## Failure Email Sample
 
