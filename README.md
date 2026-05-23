@@ -126,7 +126,7 @@ to analyze supply chain fulfillment performance.
 
 ## Streamlit Dashboard Screenshot
 
-![Streamlit Dashboard](sample_images/Streamlit_dashboard.png)
+![Streamlit Dashboard](sample_images/Streamlit_dashboard.jpg)
 
 ---
 
