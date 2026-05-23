@@ -129,6 +129,19 @@ to analyze supply chain fulfillment performance.
 ![Streamlit Dashboard](sample_images/Streamlit_dashboard.jpg)
 
 ---
+## Key Insights
+
+- Expression Stores emerged as the top customer based on total order contribution.
+- Dairy category contributed nearly 60% of the total product distribution.
+- India processed 9,466 total orders with a Volume Fill Rate of 96.6%.
+- USA processed 4,186 total orders with slightly better delivery performance compared to India.
+- OTIF (On Time In Full) performance remained below 30% in both regions, highlighting supply chain delivery challenges.
+- Despite high Volume Fill Rates, On-Time and In-Time delivery metrics indicated operational improvement opportunities.
+
+
+
+
+
 
 # Key Learnings
 
